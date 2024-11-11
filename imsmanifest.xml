@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest identifier="MEDMASTER" version="1.0" 
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<adlcp:location>metadata.xml</adlcp:location> 
+	</metadata>
+	<organizations default="MEDMASTER_ORG">
+		<organization identifier="MEDMASTER_ORG">
+			<title>MEDMASTER-EVALUATION</title>
+			<item identifier="MEDMASTER_SCO" isvisible="true" identifierref="MEDMASTER_SCO_RES">
+				<title>index_SCO_Title</title>
+			</item>
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>	
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="MEDMASTER_SCO_RES" type="webcontent" href="index.html" adlcp:scormtype="sco">
+			
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>
+			
+			<file href="ar/4774.mp3"/>
+		    <file href="index.html"/>
+			<file href="scormdriver.js"/>
+			<file href="browsersniff.js"/>
+			
+<file href="assets/htmlimages/Answer_checkbox_correct.png"/> 
+<file href="assets/htmlimages/Answer_checkbox_incorrect.png"/> 
+<file href="assets/htmlimages/Answer_radio_correct.png"/> 
+<file href="assets/htmlimages/Answer_radio_incorrect.png"/> 
+<file href="assets/htmlimages/Download_certificate_icon.svg"/> 
+<file href="assets/htmlimages/img_trans.gif"/> 
+<file href="assets/js/project.js"/> 
+<file href="dist/main.chunk.js"/> 
+<file href="dist/main.chunk.js.br"/> 
+<file href="dist/runtime-main.bundle.js"/> 
+<file href="dist/vendors-main.chunk.js"/> 
+<file href="dist/vendors-main.chunk.js.LICENSE.txt"/> 
+<file href="dist/vendors-main.chunk.js.br"/> 
+<file href="dr/01457.png"/> 
+<file href="dr/018572.png"/> 
+<file href="dr/019194.png"/> 
+<file href="dr/021031.png"/> 
+<file href="dr/021144.png"/> 
+<file href="dr/021150.png"/> 
+<file href="dr/02549.png"/> 
+<file href="dr/0408.jpg"/> 
+<file href="dr/04156.png"/> 
+<file href="dr/0483.jpg"/> 
+<file href="dr/0489.png"/> 
+<file href="dr/0508.svg"/> 
+<file href="dr/05154.png"/> 
+<file href="dr/05867.png"/> 
+<file href="goodbye.html"/> 
+<file href="index.html"/> 
+<file href="pools/243/243.js"/> 
+<file href="project.txt"/> 
+<file href="vr/Vi18569.mp4"/> 
+<file href="vr/Vi19191.mp4"/> 
+<file href="vr/Vi21028.mp4"/> 
+<file href="vr/Vi21141.mp4"/> 
+<file href="vr/Vi21147.mp4"/> 
+<file href="vr/Vi2546.mp4"/> 
+<file href="vr/Vi4153.mp4"/> 
+<file href="vr/Vi486.mp4"/> 
+<file href="vr/Vi5151.mp4"/> 
+<file href="vr/Vi5864.mp4"/> 
+<file href="Utilities.js"/> 
+		</resource>
+	</resources>
+</manifest>
